@@ -69,7 +69,7 @@ def fill_words_template(template_path, output_path, replacements):
         pythoncom.CoUninitialize()
 
 def generate_output(big_blob_of_text, position):
-    client = genai.Client(api_key="AIzaSyAqTHAl_xOIIVKf_LVAJVW6LAVRrFnY4Ms")
+    client = genai.Client(api_key="API_KEY")
     #make a thing that puts it into my email template and converts it to a pdf
     #build the prompt using variables and stuff, also maybe do some cooking for a frontend:
 
