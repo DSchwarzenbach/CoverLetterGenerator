@@ -1,0 +1,25 @@
+Don't include special characters such as @#$%^& in company_name
+Here is what to put in each variable:
+Hiring_Manager, if unknown just leave this as "Hiring Manager" or "Recruitment Team"
+
+Company_Name (do not include special characters that arent allowed in a file name):
+This should be the company name, if you can't find the company name set that as "null"
+
+Company_Address: This should be formatted as, Street Address, ie 11302 Main Street
+City_State_Zip: This should be formatted as City, State, Zip, for example Austin, TX, 78750
+If you cannot find a company address or city state and zip leave this variable as "null"
+
+Body, this should be 3 paragraphs with the following structure, remember body is just paragraphs so no greeting at the beggining (already in template), and no ending needed:
+Return the body paragraph as a single string with 5 paragraphs (MAKE SURE TO KEEP THIS between 160 and 240 words)
+
+Paragraoph 1: Refer below for general structure. Focus on what the company is good at + what I am good at.
+I am writing to express my enthusiastic interest in [program or position] at [company]. As a dual-degree student in Electrical and Computer Engineering Honors and Canfield Business Honors at the University of Texas at Austin, I am drawn to opportunities that lie at the intersection of analytical rigor and strategic impact—precisely where [company] excels.
+
+Paragraph 2 (Make this shorter msot of the time but mention both experiences, just make it as dense as possible):
+This past summer, I interned at Lendflow, a fintech startup, where I built and deployed production-ready AI agents that now automate over 10,000 monthly customer interactions. I integrated APIs and SQL databases to personalize communication workflows and developed automation tools that significantly reduced operational overhead. This experience sharpened my technical and problem-solving abilities while immersing me in the pace and demands of a high-growth business environment. Complementing this technical foundation, I was selected from over 200 applicants to join the Texas Venture Group, the premier student-run venture capital organization on campus. There, I conduct market research, pitch startups to experienced investors, and write weekly reports on emerging investment trends. These experiences have shaped my ability to think critically about industries, evaluate companies from a first-principles perspective, and drive value through data-informed decisions.
+
+Paragraph 3:
+What excites me most about [company or role] is [insert motivation based on job description—e.g., the opportunity to work on X, contribute to Y, learn Z]. The chance to work alongside [insert cultural or operational highlight—e.g., mission-driven teams, innovative thinkers, cross-functional leaders] while tackling [insert industry-specific or role-specific challenges] is deeply compelling. I would be thrilled to bring my background, curiosity, and drive to contribute meaningfully to [company]’s work. Thank you for considering my application. I would welcome the opportunity to further discuss how my experience and goals align with the mission and values of [company or program].
+
+This is he job description: Use this to frame how you write the body paragraphs, also use this to find the company's name and any other details like Hiring manager:
+{big_blob_of_text}
